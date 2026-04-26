@@ -1,0 +1,10 @@
+//function to sort courses in alphanumeric 
+void printCourseList(const vector<string>& courses) {
+	vector <string> sortedCourses = courses;
+	sort(sortedCourses.begin(), sortedCourses.end()); //fxn to sort alphanumeric courses
+
+	cout << "Alphanumeric List:\n";// command to print list
+	for (const string& course : sortedCourses) {
+		cout << course << endl;
+	}
+}
