@@ -1,3 +1,6 @@
 Hash tables take up more memory space as they require a key storage to hold data; vectors can crash unless vector size is changed. 
 To increase vector size, I find it tough. A tree would be the most appropriate as we are able to do a transverse ordering.  
 I am using the tree data structure to order the values.  
+
+Big O relies on the complexity of the program lines. Such as (O(1)) constant, (O(log)) recursive,  (O(n)) is for single loop, (O(n^2)) for nested loops.
+This information helped me develop an analysis for hash tables, vector table, tree table.
